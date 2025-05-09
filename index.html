@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Log in to Spotify</h1>
+        <div class="social-login">
+            <button class="social-btn google">
+                <img src="assets/google.png" alt="Google"> Continue with Google
+            </button>
+            <button class="social-btn facebook">
+                <img src="assets/facebook.png" alt="Facebook"> Continue with Facebook
+            </button>
+            <button class="social-btn apple">
+                <img src="assets/apple.png" alt="Apple"> Continue with Apple
+            </button>
+        </div>
+        <form class="login-form">
+            <label for="email">Email or username</label>
+            <input type="text" id="email" name="email" placeholder="Email or username" required>
+            <button type="submit" class="continue-btn">Continue</button>
+        </form>
+        <p class="signup-text">Don't have an account? <a href="#">Sign up for Spotify</a></p>
+    </div>
+</body>
+</html>
