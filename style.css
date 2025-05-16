@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     background: #000; /* Fons melns */
     color: #fff;
-    display: flex; /* Flexbox, lai centrētu saturu */
+    display: flex; 
     justify-content: center; /* Horizontāli centrē */
     align-items: center; /* Vertikāli centrē */
     height: 100vh; /* Lapas augstums */
-    margin: 0; /* Noņem malas */
+    margin: 0
 }
 
 .login-container {
@@ -21,7 +21,7 @@ body {
 }
 
 .spotify-logo {
-    width: 100px; /* Logotipa platums */
+    width: 100px; /* Logo platums */
     height: auto; /* Saglabā proporcijas */
     margin: 0 auto; /* Centriski */
 }
